@@ -1,0 +1,109 @@
+#
+# AzerothCore Module: mod-camping ("WoW Forever" Camping & Campsite System)
+#
+
+[worldserver]
+
+#
+#    Camping.Enable
+#        Description: Enable the open-world Camping system.
+#        Default:     1 (Enabled)
+#
+
+Camping.Enable = 1
+
+#
+#    Camping.Duration
+#        Description: Duration in seconds that a campsite stays in the world before expiring.
+#        Default:     1800 (30 minutes)
+#
+
+Camping.Duration = 1800
+
+#
+#    Camping.SitDurationToBuff
+#        Description: Time in seconds a player must sit (/sit) at a camp to gain the 1-hour buffs.
+#        Default:     60 (1 minute)
+#
+
+Camping.SitDurationToBuff = 60
+
+#
+#    Camping.CooldownDuration
+#        Description: Cooldown in seconds before a player can receive campsite buffs again.
+#        Default:     3600 (1 hour)
+#
+
+Camping.CooldownDuration = 3600
+
+#
+#    Camping.CampRadius
+#        Description: Radius in yards around the campsite where resting and buffs apply.
+#        Default:     15.0
+#
+
+Camping.CampRadius = 15.0
+
+#
+#    Camping.MinDistanceBetweenCamps
+#        Description: Minimum distance in yards required between two active campsites.
+#        Default:     40.0
+#
+
+Camping.MinDistanceBetweenCamps = 40.0
+
+#
+#    Camping.BasicCampSlots
+#        Description: Max profession objects allowed in a Basic Campfire.
+#        Default:     3
+#
+
+Camping.BasicCampSlots = 3
+
+#
+#    Camping.SturdyCampSlots
+#        Description: Max profession objects allowed in a Sturdy Campfire.
+#        Default:     5
+#
+
+Camping.SturdyCampSlots = 5
+
+#
+#    Camping.GrandCampSlots
+#        Description: Max profession objects allowed in a Grand Campfire.
+#        Default:     10
+#
+
+Camping.GrandCampSlots = 10
+
+#
+#    Camping.AllowInCities
+#        Description: Allow placing campsites inside capital cities and sanctuaries.
+#        Default:     0 (Disabled, wilderness only)
+#
+
+Camping.AllowInCities = 0
+
+#
+#    Camping.AllowInDungeons
+#        Description: Allow placing campsites inside dungeons and raids.
+#        Default:     0 (Disabled)
+#
+
+Camping.AllowInDungeons = 0
+
+#
+#    Camping.MinSkillRequired
+#        Description: Minimum profession skill required to deploy a profession fixture.
+#        Default:     20
+#
+
+Camping.MinSkillRequired = 20
+
+#
+#    Camping.EnableCommand
+#        Description: Enable player .camp command for easy deployment and campsite info.
+#        Default:     1 (Enabled)
+#
+
+Camping.EnableCommand = 1
